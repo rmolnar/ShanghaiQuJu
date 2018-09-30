@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shanghai</title>
+  <base href="/">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Averia+Libre" rel="stylesheet">
+</head>
+<body>
+<div id="Yo! if you're reading my source code then you're awesome." style="display: none;">
+
+ ██▀███   ██▓ ▄████▄   ██ ▄█▀▓██   ██▓
+▓██ ▒ ██▒▓██▒▒██▀ ▀█   ██▄█▒  ▒██  ██▒
+▓██ ░▄█ ▒▒██▒▒▓█    ▄ ▓███▄░   ▒██ ██░
+▒██▀▀█▄  ░██░▒▓▓▄ ▄██▒▓██ █▄   ░ ▐██▓░
+░██▓ ▒██▒░██░▒ ▓███▀ ░▒██▒ █▄  ░ ██▒▓░
+░ ▒▓ ░▒▓░░▓  ░ ░▒ ▒  ░▒ ▒▒ ▓▒   ██▒▒▒ 
+  ░▒ ░ ▒░ ▒ ░  ░  ▒   ░ ░▒ ▒░ ▓██ ░▒░ 
+  ░░   ░  ▒ ░░        ░ ░░ ░  ▒ ▒ ░░  
+   ░      ░  ░ ░      ░  ░    ░ ░     
+             ░                ░ ░     
+ ███▄ ▄███▓ ▒█████   ██▓     ███▄    █  ▄▄▄       ██▀███  
+▓██▒▀█▀ ██▒▒██▒  ██▒▓██▒     ██ ▀█   █ ▒████▄    ▓██ ▒ ██▒
+▓██    ▓██░▒██░  ██▒▒██░    ▓██  ▀█ ██▒▒██  ▀█▄  ▓██ ░▄█ ▒
+▒██    ▒██ ▒██   ██░▒██░    ▓██▒  ▐▌██▒░██▄▄▄▄██ ▒██▀▀█▄  
+▒██▒   ░██▒░ ████▓▒░░██████▒▒██░   ▓██░ ▓█   ▓██▒░██▓ ▒██▒
+░ ▒░   ░  ░░ ▒░▒░▒░ ░ ▒░▓  ░░ ▒░   ▒ ▒  ▒▒   ▓▒█░░ ▒▓ ░▒▓░
+░  ░      ░  ░ ▒ ▒░ ░ ░ ▒  ░░ ░░   ░ ▒░  ▒   ▒▒ ░  ░▒ ░ ▒░
+░      ░   ░ ░ ░ ▒    ░ ░      ░   ░ ░   ░   ▒     ░░   ░ 
+       ░       ░ ░      ░  ░         ░       ░  ░   ░     
+</div>	
+	<app-root></app-root>
+
+  <!-- Contact form JavaScript -->
+  <script type="text/javascript" src="/assets/js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="/assets/js/contact_me.js"></script>
+  
+  <!-- Please don't steal my Google Maps API key. I don't want to give this site a back end just to hide it. Thanks! <3 -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArXbFcRYg3cfvFg5Y7PCP1E9nb3r4nKaQ&callback=initMap"></script>
+  <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var location = {lat: 31.296956, lng: 121.520351};
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 10, center: location});
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({position: location, map: map});
+    }
+  </script>
+
+<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
+</html>
